@@ -1,0 +1,24 @@
+
+body {
+    padding-top: 4.5rem; /* Учитывает высоту фиксированного меню */
+}
+.jumbotron {
+    background-color: #f8f9fa; /* Цвет фона для jumbotron */
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.product-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+.product-card img {
+    max-width: 10%;
+    height: 200px;
+    object-fit: cover;
+}
+.img{
+    width: 10%;
+    height: 20px;
+}

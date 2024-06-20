@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa; /* Цвет фона страницы */
+    padding-top: 4.5rem; /* Учитывает высоту фиксированного меню, если есть */
+}
+.container {
+    max-width: 400px; /* Ширина контейнера для формы */
+    margin: 0 auto; /* Центрирует форму по горизонтали */
+    margin-top: 2rem; /* Отступ сверху */
+    background-color: #ffffff; /* Цвет фона контейнера */
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1); /* Тень контейнера */
+}
+form {
+    margin-bottom: 1rem; /* Отступ снизу формы */
+}
+.scError {
+    color: #dc3545; /* Цвет текста ошибки */
+    font-size: 0.875rem; /* Размер текста ошибки */
+    margin-top: 0.5rem; /* Отступ сверху для ошибки */
+}
+.form-control {
+    margin-bottom: 1rem; /* Отступ между элементами формы */
+}
+.btn {
+    width: 100%; /* Ширина кнопки на 100% контейнера */
+}

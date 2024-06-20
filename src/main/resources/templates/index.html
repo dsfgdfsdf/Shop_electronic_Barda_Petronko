@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header th:replace="~{fragments/menu :: nav-menu}"></header>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to our Electronic Shop!</h1>
+        <p class="lead">Browse through our latest electronic products.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="/images/Speaker.png" alt="Speaker">
+                <h5 class="mt-2">Speaker system 2.1 Logitech Z625 400 W 3.5 mm Black</h5>
+                <p class="text-muted">Power:400 W; Number of acoustic channels:2.1; Feeding:From USB; Connection:Wired;
+                    Type:Speakers + Subwoofer; Compatibility:Laptops</p>
+                <a href="/speaker" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="/images/Speaker 1.png" alt="Speaker 1">
+                <h5 class="mt-2">Speaker system Genius SP-HF500B</h5>
+                <p class="text-muted">Power: 16 W; Number of acoustic channels: 2.0; Power supply: From the network; Connection: Wired; Type: Acoustic system;
+                    Outputs: 1 x mini-jack (3.5 mm), 1 x Stereo (1/4"); Mounting type: Portable; Inputs: 1 x Line input (mono) (1/4"), AUX (1/8")</p>
+                <a href="/speaker1" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="/images/Speaker 2.png" alt="Speaker 2">
+                <h5 class="mt-2">Tracer Tumba 2.1 Bluetooth speaker system</h5>
+                <p class="text-muted">Power: 20 W; Number of acoustic channels: 2.1; Power supply: From the network; Equipment: With FM tuner, DC remote control; Connection: Wired; Type: Speakers + Subwoofer; Compatibility: Laptops, PCs;
+                    Wireless capabilities: Bluetooth; Outputs: 1 x mini-jack (3.5 mm) Stereo; Installation type: Portable; Inputs: 2 x Microphone input; Material: Wood; Features: With karaoke, PC connection; Interfaces: USB, Card reader</p>
+                <a href="/speaker3" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подключение скриптов Bootstrap и других скриптов -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
